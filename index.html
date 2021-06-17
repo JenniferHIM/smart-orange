@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    <!-- Шрифты взяты к примеру, т.к. они платные и скачать их нет возможности -->
+    <style type="text/css" media="screen, print">
+        @font-face {
+           @font-face { 
+           font-family: "TTHoves";
+           src: url("../fonts/TTHoves/TTHoves.eot");
+           src: url("../fonts/TTHoves/TTHoves.eot?#iefix")format("embedded-opentype"),
+           url("../fonts/TTHoves/TTHoves.woff") format("woff"),
+           url("../fonts/TTHoves/TTHoves.ttf") format("truetype");
+           font-style: normal;
+           font-weight: 400;
+           }
+        }
+        body {
+            font-family: "TTHoves"
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header container">
+        <nav class="header-nav">
+            <a href="./index.html" class="link header-logo">
+                <img class="logo" src="./images/logo.png" alt="Логотип " width="70" height="65">  
+            </a>
+            <ul class="list header-list">
+                <li class="header-item"><a href="#home" class="link">Главная</a></li>
+                <li class="header-item"><a href="#gallery" class="link">Галерея</a></li>
+                <li class="header-item"><a href="#projects" class="link">Проекты</a></li>
+                <li class="header-item"><a href="#sertificates" class="link">Сертификаты</a></li>
+                <li class="header-item"><a href="#contacts" class="link">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+<section class="hero">
+    <div class="container">
+        <h1 class="hero-title">Project Home</h1>
+        <p class="hero-text"> 01 / 02</p>
+        <ul class="list">
+            <li class="hero-item">
+                <button>
+                    <svg class="arrow-icon" width="53" height="53">
+                        <use xlink:href="./images/sprite.svg#icon-leftArrow"></use>
+                    </svg></a>
+                </button>
+            </li>
+            <li class="menu-item">
+                <button>
+                    <svg class="arrow-icon" width="53" height="53">
+                        <use xlink:href="./images/sprite.svg#icon-rightArrow"></use>
+                    </svg></a>
+                </button>
+            </li>
+        </ul>
+        <img src="./images/whitehouse.png" alt="white big house" width="770" height="829">
+        <button type="button">Взглянуть</button>
+    </div>
+    
+</section>
+
+<section class="company">
+    <div class="container">
+        <h2 class="main-title">О компании</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged.</p>
+        <button>Читать</button>
+        <img src="./images/part1.png" alt="part of the house 1">
+        <img src="./images/part2.png" alt="part of the house 2">
+        <img src="./images/part3.png" alt="part of the house 3">
+    </div>
+</section>
+
+<section class="tasks">
+    <div class="container">
+        <h2 class="main-title">Основные задачи</h2>
+        <ul class="list">
+            <li>
+                <img src="./images/one.png" alt="number one">
+                <p>Создание комфортных условий и повышение качества обслуживания клиентов</p>
+            </li>
+            <li>
+                <img src="./images/two.png" alt="number 2">
+                <p>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и
+                усиленной рекламы на рынке</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="projects">
+    <div class="container">
+        <h2 class="main-title">Наши проекты</h2>
+        <div class="projects-flex">
+            <img src="./images/pic1.png" alt="picture 1" width="570">
+            <img src="./images/pic2.png" alt="picture 2" width="570">
+            <img src="./images/pic3.png" alt="picture 3" width="270">
+            <img src="./images/pic4.png" alt="picture 4" width="470">
+            <img src="./images/pic5.png" alt="picture 5" width="370">
+           <!-- <ul class="list">
+               <li class="box1"><img src="./images/pic1.png" alt="picture 1" width="570"></li>
+               <li class="box2"><img src="./images/pic2.png" alt="picture 2" width="570"></li>
+               <li class="box3"><img src="./images/pic3.png" alt="picture 3" width="270"></li>
+               <li class="box4"><img src="./images/pic4.png" alt="picture 4" width="470"></li>
+               <li class="box5"><img src="./images/pic5.png" alt="picture 5" width="370"></li>
+           </ul> -->
+              
+        </div>
+        
+    </div>
+</section>
+
+<section class="contacts">
+    <div class="container">
+        <h2 class="main-title">Связаться с нами</h2>
+    </div>
+</section>
+
+</main>
+    
+<footer class='footer' id="footer">
+    <div class="container">
+        <p class='footer-text'>
+            <span>©</span>2019 Digital Project. Все права защищены.
+        </p>
+    </div>
+      
+</footer>
+</body>
+</html>

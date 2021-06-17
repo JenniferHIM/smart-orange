@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: TT Hoves;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: $main-text-color;
+  background-color: $white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/*Список без маркеров*/
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Навигация */
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+/*Секция и заголовок секции*/
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  font-weight: bold;
+  line-height: 1.167;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  color: $title-color;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+/*Ссылка*/
+.link {
+  color: $title-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    text-decoration: underline;
+    @extend %animation;
+  }
+}
